@@ -167,7 +167,7 @@ class User
     // Check if the user is already logged in
     public function isLoggedin(): bool
     {
-        // Start sessie als deze nog niet gestart is
+        // Start sessie als deze nog niet gestart
         if (session_status() === PHP_SESSION_NONE) {
             session_start();
         }
