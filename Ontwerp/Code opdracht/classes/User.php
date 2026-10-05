@@ -1,4 +1,3 @@
-```php
 <?php
 
 // Functie: classdefinitie User
@@ -243,4 +242,3 @@ class User
     
 }
 ?>
-```
