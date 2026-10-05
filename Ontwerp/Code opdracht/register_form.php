@@ -30,6 +30,7 @@
         $user->setPassword($_POST['password']);
 
         // Validatie gegevens
+        $errors = $user->validateUser();
 
         // Hoe???
 
@@ -40,7 +41,7 @@
 
             // Register user
 
-            $errors = $user->validateUser();
+            $errors = $user->registerUser();
 
         }
 
@@ -65,6 +66,8 @@
         } else {
 
             echo "
+
+            $user->regi
 
                 <script>alert('" . "User registerd" . "')</script>
 

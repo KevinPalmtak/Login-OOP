@@ -14,7 +14,7 @@
 		$user->username = $_POST['username'];
 		$user->setPassword($_POST['password']);
 
-		$user->showUser();
+		// $user->showUser();
 
 		// Validatie gegevens
 		$errors = $user->validateUser();
