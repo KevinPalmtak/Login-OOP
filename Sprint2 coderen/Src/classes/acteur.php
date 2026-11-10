@@ -44,4 +44,4 @@ class Acteur
             ':id' => $id
         ]);
     }
-}
+} 
